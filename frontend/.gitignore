@@ -1,0 +1,90 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Transpiled JavaScript files
+#
+# Next.js cache
+.next/
+out/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Misc
+.DS_Store
+*.pem
+
+# Environment files
+.env
+.env*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.vscode*/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Turborepo
+.turbo
+
+# Output of 'next export'
+#
+# Next.js export files
+#
+# Uncomment the following line if you are using 'next export'
+# /out/
+
+# Storybook
+.storybook
+storybook-static
+
+# Docusaurus
+.docusaurus
+
+# Monorepo
+node_modules/
+dist/
+build/
+coverage/
+packages/**/dist
+packages/**/build
+packages/**/coverage
+apps/**/dist
+apps/**/build
+apps/**/coverage
+
+# Cypress e2e tests
+cypress/videos/
+cypress/screenshots/
+
+# Playwright e2e tests
+test-results/
+playwright-report/
+
+# Nx
+nx-chrome-profile.json
+/dist
+/nx-results-ci.html
+/nx-results.html
+/tmp/
+
+# Nx Cloud
+.nx/cache
+
+# ESLint cache
+.eslintcache
